@@ -5,12 +5,6 @@
 # Copyright:: 2017, The Authors, All Rights Reserved.
 
 # installs Amazon's awscli tools
-=begin
-AWS_Credentials = data_bag_item('AWS_Credentials', 'main')
-node.default[:awscli][:config_profiles][:default][:region] = 'us-east-1'
-node.default[:awscli][:config_profiles][:default][:aws_access_key_id] = "AWS_Credentials['aws_access_key_id']"
-node.default[:awscli][:config_profiles][:default][:aws_secret_access_key] = "AWS_Credentials['aws_secret_access_key']"
-=end
 
 # This is where you will store a copy of your key on the chef-client
 secret = Chef::EncryptedDataBagItem.load_secret("/home/ec2-user/encrypted_data_bag_secret")

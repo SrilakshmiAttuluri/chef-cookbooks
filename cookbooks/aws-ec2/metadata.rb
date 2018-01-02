@@ -1,4 +1,4 @@
-name 'sample'
+name 'aws-ec2'
 maintainer 'The Authors'
 maintainer_email 'you@example.com'
 license 'All Rights Reserved'
