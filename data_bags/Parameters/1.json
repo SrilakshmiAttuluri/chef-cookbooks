@@ -1,0 +1,5 @@
+{
+    "id": "1",
+    "ParameterKey": "InstanceType",
+    "ParameterValue": "t2.small"
+}

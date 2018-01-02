@@ -1,0 +1,5 @@
+{
+"id": "sample",
+"app_name": "chef-workstation",
+"env_name": "DEV"
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "ParameterKey": "InstanceType",
+    "ParameterValue": "t2.small"
+  }, 
+  {
+    "ParameterKey": "KeyName",
+    "ParameterValue": "chef-workstation"
+  },
+  {
+    "ParameterKey": "BaseImageId",
+    "ParameterValue": "ami-6e139a14"
+  },
+  {
+    "ParameterKey": "InstanceSecurityGroup",
+    "ParameterValue": "sg-03e6d073"
+  },
+  {
+    "ParameterKey": "InstanceSubnets",
+    "ParameterValue": "subnet-729b833a,subnet-7f97cd53"
+  },
+  {
+    "ParameterKey": "SSHLocation",
+    "ParameterValue": "179.0.10.10/28"
+  }
+]

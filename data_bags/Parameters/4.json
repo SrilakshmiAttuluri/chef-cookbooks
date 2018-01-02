@@ -1,0 +1,5 @@
+{
+    "id": "4",
+    "ParameterKey": "InstanceSecurityGroup",
+    "ParameterValue": "sg-03e6d073"
+}
