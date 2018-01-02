@@ -1,0 +1,24 @@
+{
+  "name": "serverhardening",
+  "description": "Serverhardening-tomcatsetup-tomcatdeploy",
+  "json_class": "Chef::Role",
+  "default_attributes": {
+
+  },
+  "override_attributes": {
+
+  },
+  "chef_type": "role",
+  "run_list": [
+    "recipe[server-hardening]",
+    "recipe[java]",
+    "recipe[tomcat]",
+    "recipe[maven]",
+    "recipe[maven::maven_download]",
+    "recipe[tomcat-deploy]"
+  ],
+  "env_run_lists": {
+
+  }
+}
+
